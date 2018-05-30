@@ -1,11 +1,15 @@
+            /*imports*/
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 
-
+                /*general*/
 
 *{
     margin: 0;
 }
+
+                /*sezione 1*/
 
 .firstS{
     width: 100%;
@@ -18,19 +22,15 @@
     background-repeat: no-repeat;
 }
 
+                /*sezione 2*/
+
 .secondS {
     border-top: 1px solid gray;
     background-color: wheat;
     width: 100%;
 }
 
-.secondD {
-
-    border-top: 1px solid gray;
-    background-color: wheat;
-    width: 100%;
-height: 35%;
-}
+/*titolo fateicapricci*/
 
 .div1 {
     color: white;
@@ -41,6 +41,8 @@ height: 35%;
    
 }
 
+/*titolo 2 frase ad effetto*/
+
 .div2 {
     color: white;
     margin-left: 10%;
@@ -48,21 +50,14 @@ height: 35%;
     background-color: brown;
 }
 
-.div3{
-    background-color: white;
-    height: 40%;
-}
-
-.div3 > h1 {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
+/*container bottone negozio*/
 
 .containerButton {
 width: 100%;
     margin-top: 10%;
 }
+
+/*div bottone negozio effettivo*/
 
 .shopB {
     border-radius: 25px;
@@ -78,12 +73,13 @@ width: 100%;
     cursor: pointer;
 }
 
+/*hover bottone negozio*/
 
 .shopB:hover  {
     width: 13%;
 }
 
-
+/*paragrafo all'interno del bottone*/
 
 .scrShop {
     text-align: center;
@@ -91,12 +87,17 @@ width: 100%;
     color: black;
     font-size: 20px;
 }
+
+/*div contente le icone socials*/
+
 .divIcons {
     width: 110px;
     height: 5%;
     padding-right:0.5%; 
     float: right;
 }
+
+/*icona instagram e div*/
 
 .instagramI .instagramImg {
     float: left;
@@ -105,11 +106,15 @@ width: 100%;
     padding-right: 5%;
 }
 
+/*icona facebook e div*/
+
 .facebookI .facebookImg {
     float: right;
     width: 50px;
     height: 50px;
 }
+
+/*div descrittivo sinistro (sezione 2)*/
 
 .D-LEFT {
     width: 45%;
@@ -124,11 +129,13 @@ width: 100%;
     margin-top: 5%; 
 }
 
+/*hover div descrittivo sinistro con fade effect*/
+
 .D-LEFT:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
+/*div per google maps destro (sezione 2)*/
 
 .D-RIGHT {
     width: 25%;
@@ -144,6 +151,8 @@ width: 100%;
     background-size: cover;
 }
 
+/*paragrafo nel div descrittivo sinistro*/
+
 .Descp {
     padding: 3%;
     color: black;
@@ -152,6 +161,7 @@ width: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*titolo div1*/
 
 h1 {
     text-align: left;
@@ -162,6 +172,8 @@ h1 {
     padding-bottom: 1%;
 }
 
+/*titolo div2*/
+
 h2{
     text-align: left;
     padding-left: 2%;
@@ -171,22 +183,14 @@ h2{
     padding-bottom: 1%;
 }
 
+/*freccia*/
+
 .downArrow{
     text-align: center;
     margin-top: 3%;
 }
 
-.bounce {
-	-moz-animation: bounce 3s infinite;
-	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
-}
-
-.cart{
-    width: 18%;
-    margin: auto;
-    padding-bottom: 5%;
-}
+/*animazione freccia*/
 
 .bounce {
 	-moz-animation: bounce 3s infinite;
@@ -194,6 +198,7 @@ h2{
 	animation: bounce 3s infinite;
 }
 
+/*animazione freccia*/
 @-moz-keyframes bounce {
     0%, 100% {
       -moz-transform: translateY(0);
@@ -232,6 +237,9 @@ h2{
     
   }
 
+/*fine animazione freccia*/
+
+/*zona adattamento risoluzione*/
 @media only screen and (max-width: 600px) {
     
     h1 {

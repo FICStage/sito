@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-                /*sezione 1*/
+                /*---------------------------inizio sezione 1------------------------*/
 
 .firstS{
     width: 100%;
@@ -22,15 +22,7 @@
     background-repeat: no-repeat;
 }
 
-                /*sezione 2*/
-
-.secondS {
-    border-top: 1px solid gray;
-    background-color: wheat;
-    width: 100%;
-}
-
-/*titolo fateicapricci*/
+/*titolo 1 fateicapricci*/
 
 .div1 {
     color: white;
@@ -53,9 +45,9 @@
 /*container bottone negozio*/
 
 .containerButton {
-width: 100%;
-    margin-top: 10%;
-}
+    width: 100%;
+        margin-top: 10%;
+    }
 
 /*div bottone negozio effettivo*/
 
@@ -114,7 +106,53 @@ width: 100%;
     height: 50px;
 }
 
-/*div descrittivo sinistro (sezione 2)*/
+/*titolo div1*/
+
+h1 {
+    text-align: left;
+    padding-left: 2%;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*titolo div2*/
+
+h2{
+    text-align: left;
+    padding-left: 2%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*freccia*/
+
+.downArrow{
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*animazione freccia*/
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+                /*----------------------------fine sezione 1-------------------------*/
+                /*----------------------------inizio sezione 2-------------------------*/
+
+.secondS {
+    border-top: 1px solid gray;
+    background-color: wheat;
+    width: 100%;
+}
+
+/*div descrittivo sinistro */
 
 .D-LEFT {
     width: 45%;
@@ -159,43 +197,6 @@ width: 100%;
     font-size: 35px;
     text-align: justify;
     font-family: 'Ubuntu', sans-serif;
-}
-
-/*titolo div1*/
-
-h1 {
-    text-align: left;
-    padding-left: 2%;
-    font-size: 50px;
-    font-family: 'Ubuntu', sans-serif;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-/*titolo div2*/
-
-h2{
-    text-align: left;
-    padding-left: 2%;
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-/*freccia*/
-
-.downArrow{
-    text-align: center;
-    margin-top: 3%;
-}
-
-/*animazione freccia*/
-
-.bounce {
-	-moz-animation: bounce 3s infinite;
-	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
 }
 
 /*animazione freccia*/

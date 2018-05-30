@@ -143,7 +143,7 @@ h2{
 	animation: bounce 3s infinite;
 }
 
-                /*----------------------------fine sezione 1-------------------------*/
+                /*----------------------------fine sezione 1---------------------------*/
                 /*----------------------------inizio sezione 2-------------------------*/
 
 .secondS {
@@ -199,7 +199,9 @@ h2{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/*animazione freccia*/
+            /*----------------------------fine sezione 1---------------------------*/
+
+            /*-----------------------inizio animazione freccia---------------------------*/
 @-moz-keyframes bounce {
     0%, 100% {
       -moz-transform: translateY(0);
@@ -238,7 +240,7 @@ h2{
     
   }
 
-/*fine animazione freccia*/
+/*--------------------------------------fine animazione freccia----------------------------*/
 
 /*zona adattamento risoluzione*/
 @media only screen and (max-width: 600px) {

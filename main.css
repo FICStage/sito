@@ -57,29 +57,47 @@ height: 35%;
 
 .D-LEFT {
 
+
 width: 45%;
 height: 25%;
-background-color: black;
-
+background-color: white;
+border: 1px rgba(0, 0, 0, 0.3) solid;
+-webkit-transition:  background-color 1s ease; /* For Safari 3.1 to 6.0 */
+transition: background-color 1s ease;
 padding-bottom: 15%;
 float: left;
 margin-left: 5%; 
 margin-top: 5%; 
 }
 
+.D-LEFT:hover {
+
+    
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+
 .D-RIGHT {
 width: 25%;
-height: 20%;
+height: 25%;
 background-color: black;
-padding-bottom: 20%;
+padding-bottom: 25%;
 float: right; 
 margin-right: 10%; 
 margin-top: 10%; 
+
+background-image:url(immagini/front.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .Descp {
 padding: 3%;
-color: white;
+color: black;
 font-size: 35px;
 text-align: justify;
 font-family: 'Ubuntu', sans-serif;

@@ -292,17 +292,34 @@ h2{
         padding-top: 8%;
         padding-bottom: 8%;
         }
+.downArrow > img {
 
+    height: 32px;
+    width: 32px;
+}
     .downArrow{
-        margin-top: 10%;
+        margin-top: 12%;
+        
     }
 
+.divIcons {
+
+    width: 55px;
+
+}
+
+
     .instagramI .instagramImg {
-        margin-top: -23%;
+        margin-top: +3%;
+        height: 24px;
+        width: 24px;
+        
     }
     
     .facebookI .facebookImg {
-        margin-top: -23%;
+        margin-top: +3%;
+        height: 24px;
+        width: 24px;
     }
 
     .D-LEFT {

@@ -169,4 +169,17 @@ h2{
     h2{
         font-size: 15px;
     }
+
+    .Descp {
+        font-size: 15px;
+        }
+
+    .downArrow{
+        width: 15%;
+        margin-top: 10%;
+    }
+
+    .firstS{
+    padding-bottom: 0%;
+}
 }

@@ -2,32 +2,32 @@
 <html lang="en">
 
 <head>
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script>
-        $(document).ready(function(){
-        var header = $('.firstS');
-        
-        var backgrounds = new Array(
-            'url(http://hdlatestwallpaper.com/?edmc=15705)'
-          , 'url(https://hdwallsource.com/img/2014/2/toy-car-wallpaper-39181-40084-hd-wallpapers.jpg)'
-          , 'url(https://szftlgs.com/wp-content/uploads/data/2018/1/3/toy-story-wallpaper-hd-wallpapers-WSW10213363.jpg)'
-          , 'url(https://cdn.suwalls.com/wallpapers/photography/wall-e-toy-24052-1920x1200.jpg)'
-        );
-        
-        var current = 0;
-        
-        function nextBackground() {
-            current++;
-            current = current % backgrounds.length;
-            header.css('background-image', backgrounds[current]);
-            header.css('background-position', backgrounds[center]);
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var header = $('.firstS');
 
-        }
-        setInterval(nextBackground, 6000);
-        
-        header.css('background-image', backgrounds[0]);
+            var backgrounds = new Array(
+                'url(http://hdlatestwallpaper.com/?edmc=15705)'
+                , 'url(https://hdwallsource.com/img/2014/2/toy-car-wallpaper-39181-40084-hd-wallpapers.jpg)'
+                , 'url(https://szftlgs.com/wp-content/uploads/data/2018/1/3/toy-story-wallpaper-hd-wallpapers-WSW10213363.jpg)'
+                , 'url(https://cdn.suwalls.com/wallpapers/photography/wall-e-toy-24052-1920x1200.jpg)'
+            );
+
+            var current = 0;
+
+            function nextBackground() {
+                current++;
+                current = current % backgrounds.length;
+                header.css('background-image', backgrounds[current]);
+                header.css('background-position', backgrounds[center]);
+
+            }
+            setInterval(nextBackground, 6000);
+
+            header.css('background-image', backgrounds[0]);
         });
-        </script>
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,8 +48,19 @@
         <div class="downArrow bounce">
             <img src="icone\arrow.png" alt="">
         </div>
+
     </section>
-   <!--<section class="secondS">
+        <div class="D-LEFT">
+
+            <p class="Descp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, consequatur quae natus veritatis placeat incidunt officiis neque aut cum architecto quod quibusdam! Deleniti sequi doloremque harum voluptas. Ducimus, ipsum tempore?</p>
+
+        </div>
+        <div class="D-RIGHT">
+
+            <p>ciao2</p>
+
+        </div>
+    <!--<section class="secondS">
         <div class="div3">
             <h1>Benvenuto in Fate i Capricci</h1>
             <div class="cart">

@@ -10,9 +10,6 @@
     margin: 0;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
-}
 
                 /*---------------------------inizio sezione 1------------------------*/
 
@@ -247,7 +244,16 @@ h2{
 /**/
 /*--------------------------------------fine animazione freccia----------------------------*/
 
+/*webkit*/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 /*zona adattamento risoluzione*/
+
+
+
 @media only screen and (max-width: 600px) {
     
     h1 {

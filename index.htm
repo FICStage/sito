@@ -1,78 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!--INIZIO HEAD-->
+
 <head>
+
+    <!--title e meta vari-->
     <title>Fate i Capricci</title>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-      
-      var vet = ["url('http://www.wallpapers4u.org/wp-content/uploads/toys_multicolored_collection_variety_31608_1920x1080.jpg')","url('https://i.ytimg.com/vi/UvPvtRpsW1Q/maxresdefault.jpg')","url('https://afdigitale.it/wp-content/uploads/2017/04/Lego-Batman-Main.jpg')","url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg')"];
-
-cont=0;
-
-setInterval(cambia,5000);
-
-function cambia(){
-
-    cont++;
-
-    if(cont>vet.length){
-
-      cont=1;
-
-    }
-    document.getElementById('gallery').style.backgroundImage  = vet[cont];
-}
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!-- INIZIO SCRIPT BACKGROUND -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+
+        var vet = ["url('http://www.wallpapers4u.org/wp-content/uploads/toys_multicolored_collection_variety_31608_1920x1080.jpg')", "url('https://i.ytimg.com/vi/UvPvtRpsW1Q/maxresdefault.jpg')", "url('https://afdigitale.it/wp-content/uploads/2017/04/Lego-Batman-Main.jpg')", "url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg')"];
+
+        cont = 0;
+
+        setInterval(cambia, 5000);
+
+        function cambia() {
+
+            cont++;
+
+            if (cont > vet.length) {
+
+                cont = 1;
+
+            }
+            document.getElementById('gallery').style.backgroundImage = vet[cont];
+        }
+    </script>
+
+    <!--FINE SCRIPT BACKGROUND-->
+
 </head>
 
+<!--FINE HEAD-->
+
+
+
+
+
+
+<!--INIZIO BODY-->
+
 <body>
+
+    <!--SEZIONE 1-->
     <section class="firstS" id="gallery">
+
+        <!--DIV 1 TITOLO-->
         <div class="div1">
             <h1>FATE I CAPRICCI</h1>
         </div>
 
+        <!--DIV 2 SECONDO TITOLO-->
         <div class="div2">
             <h2>Il vero negozio storico di giocattoli italiano dal 1985</h2>
         </div>
+
+        <!--CONTAINER BOTTONE-->
         <div class="containerButton">
 
+            <!--BOTTONE-->
             <div class="shopB" onclick="window.location='http://www.fateicapricci.it';">
+
+                <!--SCRIPT BOTTONE COLORE-->
                 <script>
                     $(function () {
                         $(".shopB").click(function () {
                             $(this).css('background-color', '#c2b60b66');
-                           
+
                         });
                     });
-                    </script>
+                </script>
+
+                <!--SCRITTA BOTTONE-->
                 <p class="scrShop">
                     <b>Compra online</b>
                 </p>
-
             </div>
-
         </div>
+
+        <!--DIV FRECCIA-->
         <div class="downArrow bounce">
             <img src="icone\arrow.png" alt="">
         </div>
 
-
-
-        </div>
+        <!--DIV ICONE SOCIAL-->
         <div class="divIcons">
+
+            <!--INSTRAGRAM-->
             <a href="">
+
                 <div class="instagramI">
                     <img src="icone\029-instagram.png" class="instagramImg">
                 </div>
             </a>
+
             <a href="">
+
+                <!--FACEBOOK-->
                 <div class="facebookI">
                     <img src="icone\036-facebook.png" class="facebookImg">
                 </div>
@@ -80,23 +113,32 @@ function cambia(){
         </div>
 
     </section>
+    <!--FINE SEZIONE 1-->
+
+
+
+
+
+
+
+    <!--INIZIO SEZIONE 2-->
     <section class="secondS">
+
+        <!--DIV DESCRIZIONE SINISTRO-->
         <div class="D-LEFT">
 
             <p class="Descp">Fate i Capricci è il sito storico di giocattoli bla bla bla. Compra di tutto dal ..... e divertiti fate i capricci
                 non la guerra</p>
 
         </div>
+
+        <!--DIV DESCRIZIONE DESTRO-->
         <div class="D-RIGHT">
-
-
-
         </div>
-
-
-
-
     </section>
+    <!--FINE SEZIONE 2-->
+
+
 </body>
 
 </html>

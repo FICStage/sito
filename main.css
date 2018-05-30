@@ -288,15 +288,6 @@ h2{
     }
 
     .D-LEFT {
-        width: 45%;
-        height: 25%;
-        background-color: white;
-        border: 1px rgba(0, 0, 0, 0.3) solid;
-        -webkit-transition:  background-color 1s ease; /* For Safari 3.1 to 6.0 */
-        transition: background-color 1s ease;
-        padding-bottom: 15%;
-        float: left;
-        margin-left: 5%; 
         margin-top: 10%; 
     }
 }

@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 # Sito per Azienda FATE I CAPRICCI
 #DEVELOPED BY CASTRO,CATTANEO,BIGHINI,BERTOCCHI,BARONCELLI,BONILLA,GIORGIO,DE LEO
-=======
-# sito per fateicapricci
-#branch1,test
->>>>>>> ff054115a7622d6546e4f1ab22b2e00f023dc4e9

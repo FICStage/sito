@@ -10,8 +10,10 @@
 .firstS{
     width: 100%;
     height: 20%;        
+    background-image: url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg');
     padding-top: 10%;
     padding-bottom: 3%;
+    transition-duration: 1s;
     background-position: center;
     background-repeat: no-repeat;
 }

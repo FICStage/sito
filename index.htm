@@ -5,29 +5,24 @@
     <title>Fate i Capricci</title>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script>
-        $(document).ready(function () {
-            var header = $('.firstS');
+      
+      var vet = ["url('http://www.wallpapers4u.org/wp-content/uploads/toys_multicolored_collection_variety_31608_1920x1080.jpg')","url('https://i.ytimg.com/vi/UvPvtRpsW1Q/maxresdefault.jpg')","url('https://afdigitale.it/wp-content/uploads/2017/04/Lego-Batman-Main.jpg')","url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg')"];
 
-            var backgrounds = new Array(
-                'url(http://hdlatestwallpaper.com/?edmc=15705)'
-                , 'url(https://hdwallsource.com/img/2014/2/toy-car-wallpaper-39181-40084-hd-wallpapers.jpg)'
-                , 'url(https://szftlgs.com/wp-content/uploads/data/2018/1/3/toy-story-wallpaper-hd-wallpapers-WSW10213363.jpg)'
-                , 'url(https://cdn.suwalls.com/wallpapers/photography/wall-e-toy-24052-1920x1200.jpg)'
-            );
+cont=0;
 
-            var current = 0;
+setInterval(cambia,5000);
 
-            function nextBackground() {
-                current++;
-                current = current % backgrounds.length;
-                header.css('background-image', backgrounds[current]);
-                header.css('background-position', backgrounds[center]);
+function cambia(){
 
-            }
-            setInterval(nextBackground, 6000);
+    cont++;
 
-            header.css('background-image', backgrounds[0]);
-        });
+    if(cont>vet.length){
+
+      cont=1;
+
+    }
+    document.getElementById('gallery').style.backgroundImage  = vet[cont];
+}
     </script>
 
     <meta charset="UTF-8">
@@ -38,7 +33,7 @@
 </head>
 
 <body>
-    <section class="firstS">
+    <section class="firstS" id="gallery">
         <div class="div1">
             <h1>FATE I CAPRICCI</h1>
         </div>

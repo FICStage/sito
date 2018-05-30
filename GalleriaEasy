@@ -1,0 +1,44 @@
+<html>
+<head>
+    <style>
+
+          #gallery {
+
+              height:100%;
+              width:100%;
+              background-image: url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg');
+              float:left;
+              transition-duration: 1s;
+          }
+
+          *{
+            margin:0;
+            padding:0;
+
+          }
+    </style>
+    <script>
+
+          var vet = ["url('http://www.wallpapers4u.org/wp-content/uploads/toys_multicolored_collection_variety_31608_1920x1080.jpg')","url('https://i.ytimg.com/vi/UvPvtRpsW1Q/maxresdefault.jpg')","url('https://afdigitale.it/wp-content/uploads/2017/04/Lego-Batman-Main.jpg')","url('https://i.pinimg.com/originals/a3/f6/1b/a3f61b3882c23ebe015ea6ffa0d337a6.jpg')"];
+
+          cont=0;
+
+          setInterval(cambia,5000);
+
+          function cambia(){
+
+              cont++;
+
+              if(cont>vet.length){
+
+                cont=1;
+
+              }
+              document.getElementById('gallery').style.backgroundImage  = vet[cont];
+          }
+    </script>
+</head>
+<body>
+    <di id="gallery"></div>
+</body>
+</html>

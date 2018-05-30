@@ -20,6 +20,8 @@
             current++;
             current = current % backgrounds.length;
             header.css('background-image', backgrounds[current]);
+            header.css('background-position', backgrounds[center]);
+
         }
         setInterval(nextBackground, 6000);
         

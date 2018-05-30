@@ -2,6 +2,31 @@
 <html lang="en">
 
 <head>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        var header = $('body');
+        
+        var backgrounds = new Array(
+            'url(http://hdlatestwallpaper.com/?edmc=15705)'
+          , 'url(https://hdwallsource.com/img/2014/2/toy-car-wallpaper-39181-40084-hd-wallpapers.jpg)'
+          , 'url(https://szftlgs.com/wp-content/uploads/data/2018/1/3/toy-story-wallpaper-hd-wallpapers-WSW10213363.jpg)'
+          , 'url(https://cdn.suwalls.com/wallpapers/photography/wall-e-toy-24052-1920x1200.jpg)'
+        );
+        
+        var current = 0;
+        
+        function nextBackground() {
+            current++;
+            current = current % backgrounds.length;
+            header.css('background-image', backgrounds[current]);
+        }
+        setInterval(nextBackground, 6000);
+        
+        header.css('background-image', backgrounds[0]);
+        });
+        </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">

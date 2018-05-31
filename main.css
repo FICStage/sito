@@ -290,20 +290,36 @@ h2{
         }
 
     .downArrow{
-        margin-top: 10%;
-    }
+        margin-top: 12%;
 
+    }
+    .downArrow > img {
+
+        height: 32px;
+        width: 32px;
+    }
+    
+    .divIcons {
+        width: 55px;
+        margin-top: +4%;
+    }
+    
     .instagramI .instagramImg {
         margin-top: -25%;
+        height: 24px;
+        width: 24px;
     }
     
     .facebookI .facebookImg {
         margin-top: -25%;
+        height: 24px;
+        width: 24px;
     }
 
     .D-LEFT {
         margin-top: 10%; 
     }
+    
 }
 
 /* Cellulare orizzontale*/

@@ -4,7 +4,7 @@
 
 
 
-                /*general*/
+                /*general */
 
 *{
     margin: 0;
@@ -252,7 +252,7 @@ h2{
 
 /*zona adattamento risoluzione*/
 
-
+/* Cellulare verticale*/
 
 @media only screen and (max-width: 600px) {
     
@@ -266,10 +266,6 @@ h2{
 
     .Descp {
         font-size: 15px;
-    }
-
-    .firstS{
-    padding-bottom: 0%;
     }
 
     .scrShop {
@@ -298,14 +294,122 @@ h2{
     }
 
     .instagramI .instagramImg {
-        margin-top: -20%;
+        margin-top: -25%;
     }
     
     .facebookI .facebookImg {
-        margin-top: -20%;
+        margin-top: -25%;
     }
 
     .D-LEFT {
         margin-top: 10%; 
+    }
+}
+
+/* Cellulare orizzontale*/
+
+@media screen and (min-width: 300px) and (max-width: 850px) and (orientation:landscape) {
+
+    .instagramI .instagramImg {
+        margin-top: -10%;
+    }
+    
+    .facebookI .facebookImg {
+        margin-top: -10%;
+    }
+
+    .shopB {
+        border-radius: 25px;
+        padding: 10px; 
+        width: 15%;
+    }
+
+    .firstS{
+        padding-top: 8%;
+        padding-bottom: 8%;
+        }
+
+    .downArrow{
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .Descp {
+        font-size: 20px;
+    }
+}
+
+/*Tablet verticale*/
+
+@media screen and (min-width: 600px) and (max-width: 1200px) and (orientation:portrait) {
+
+    .instagramI .instagramImg {
+        margin-top: 5%;
+    }
+    
+    .facebookI .facebookImg {
+        margin-top: 5%;
+    }
+
+    .firstS{
+        padding-top: 8%;
+        padding-bottom: 8%;
+        }
+    
+    .shopB {
+        border-radius: 25px;
+        padding: 10px; 
+        width: 15%;
+    }
+    
+    .downArrow{
+        margin-top: 10%;
+    }
+}
+
+/*Tablet Orizzonatle*/
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) and (orientation:landscape) {
+
+    .instagramI .instagramImg {
+        margin-top: 5%;
+    }
+    
+    .facebookI .facebookImg {
+        margin-top: 5%;
+    }
+
+    .firstS{
+        padding-top: 8%;
+        padding-bottom: 8%;
+        }
+    
+    .shopB {
+        border-radius: 25px;
+        padding: 10px; 
+        width: 15%;
+    }
+    
+    .downArrow{
+        margin-top: 10%;
+    }
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 1600px) {
+
+    .instagramI .instagramImg {
+        margin-top: -10%;
+    }
+    
+    .facebookI .facebookImg {
+        margin-top: -10%;
     }
 }

@@ -211,8 +211,13 @@ h2{
     float: left;
     margin-left: 5%; 
     margin-top: 5%; 
+<<<<<<< HEAD
     
     
+=======
+    border-radius:6px;
+    border: brown solid;
+>>>>>>> eceddc59296ed52b1cf4c70550c2ce6b4fa596b3
     
 }
 
@@ -246,7 +251,7 @@ h2{
     font-family: 'Ubuntu', sans-serif;
 }
 
-            /*----------------------------fine sezione 1---------------------------*/
+            /*----------------------------fine sezione 2---------------------------*/
 
             /*-----------------------inizio animazione freccia---------------------------*/
 @-moz-keyframes bounce {

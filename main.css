@@ -160,13 +160,15 @@ h2{
     width: 45%;
     height: 25%;
     background-color: white;
-    border: 1px rgba(0, 0, 0, 0.3) solid;
     -webkit-transition:  background-color 1s ease; /* For Safari 3.1 to 6.0 */
     transition: background-color 1s ease;
     padding-bottom: 15%;
     float: left;
     margin-left: 5%; 
     margin-top: 5%; 
+    border-radius: 25px;
+    border: brown solid;
+    
 }
 
 /*hover div descrittivo sinistro con fade effect*/
@@ -189,6 +191,7 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: brown solid;
 }
 
 /*paragrafo nel div descrittivo sinistro*/

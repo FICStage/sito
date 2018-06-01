@@ -24,9 +24,51 @@
     background-size:     cover;
 }
 
+/*div loghi*/
+
+.loghiD {
+    margin-top:0%;  
+    width: 25%;
+   
+    height: 20%;
+    float: right;
+    margin-top:-5%; 
+
+
+}
+
+
+
+.logo1{
+    width: 50%;
+    float: right;
+   
+    
+
+}
+
+.real {
+
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-right:1%;    
+}
+
+
+.ghost {
+  padding-top: 3%;   
+  width: 97%;
+  height: 100%;  
+  padding-right:3%; 
+    
+    
+
+}
 /*titolo 1 fateicapricci*/
 
 .div1 {
+    
     color: white;
     width: 45%;
     background-color: brown;

@@ -26,12 +26,11 @@
 
 /*div loghi*/
 
-.loghiD {
-    margin-top:0%;  
-    width: 25%;
-    height: 20%;
+.loghiD { 
+    width: 20%;
+    height: 15%;
     float: right;
-    margin-top:-5%; 
+    margin:-10% 0;
 
 
 }
@@ -77,11 +76,8 @@
     transition-duration: 2s;
     box-shadow:2px 2px 3px #2d2d2d;
     border-radius:0 3px 3px 0;
-<<<<<<< HEAD
-=======
-   
->>>>>>> 2b208e977cb8eb6d9dc7f9a8525f65608c11629b
 }
+
 
 /*titolo 2 frase ad effetto*/
 
@@ -98,13 +94,6 @@
 /*container bottone negozio*/
 
 
-<<<<<<< HEAD
-=======
-.containerButton {
-    width: 100%;
-    margin-top: 10%;
-    }
->>>>>>> 2b208e977cb8eb6d9dc7f9a8525f65608c11629b
 
 /*div bottone negozio effettivo*/
 
@@ -230,6 +219,7 @@ h2{
     width: 45%;
     height: 25%;
     background-color: white;
+    
     -webkit-transition:  background-color 1s ease; /* For Safari 3.1 to 6.0 */
     transition: background-color 1s ease;
     padding-bottom: 15%;
@@ -252,14 +242,11 @@ h2{
 /*div per google maps destro (sezione 2)*/
 
 .D-RIGHT {
-    width: 25%;
-    height: 25%;
+    width:0;
+    height: 0;
     background-color: black;
-    padding-bottom: 25%;
-    float: right; 
-    margin-right: 10%; 
-    margin-top: 10%; 
-    background-image:url(immagini/front.jpg) ;
+    float: left;
+    margin:10% 0 0 10%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,7 +335,7 @@ h2{
     }
 
     .shopB {
-        border-radius: 5px;
+        border-radius: 25px;
         padding: 5px; 
         width: 20%;
         height: 4%; 
@@ -483,9 +470,9 @@ h2{
         }
     
     .shopB {
-        border-radius: 5px;
+        border-radius: 25px;
         padding: 10px; 
-        
+        width: 15%;
     }
     
     .downArrow{

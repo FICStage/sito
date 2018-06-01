@@ -54,7 +54,7 @@
 /*div bottone negozio effettivo*/
 
 .shopB {
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 10px; 
     width: 11%;
     height: 4%; 
@@ -178,14 +178,11 @@ h2{
 /*div per google maps destro (sezione 2)*/
 
 .D-RIGHT {
-    width: 25%;
-    height: 25%;
+    width:0;
+    height: 0;
     background-color: black;
-    padding-bottom: 25%;
-    float: right; 
-    margin-right: 10%; 
-    margin-top: 10%; 
-    background-image:url(immagini/front.jpg) ;
+    float: left;
+    margin:10% 0 0 10%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

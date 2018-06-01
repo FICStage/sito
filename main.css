@@ -89,13 +89,13 @@
 
 .containerButton {
     width: 100%;
-        margin-top: 10%;
+    margin-top: 10%;
     }
 
 /*div bottone negozio effettivo*/
 
 .shopB {
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 10px; 
     width: 11%;
     height: 4%; 
@@ -317,7 +317,7 @@ h2{
     }
 
     .shopB {
-        border-radius: 25px;
+        border-radius: 5px;
         padding: 5px; 
         width: 20%;
         height: 4%; 
@@ -452,9 +452,9 @@ h2{
         }
     
     .shopB {
-        border-radius: 25px;
+        border-radius: 5px;
         padding: 10px; 
-        width: 15%;
+        
     }
     
     .downArrow{

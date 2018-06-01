@@ -26,11 +26,12 @@
 
 /*div loghi*/
 
-.loghiD { 
-    width: 20%;
-    height: 15%;
+.loghiD {
+    margin-top:0%;  
+    width: 25%;
+    height: 20%;
     float: right;
-    margin:-10% 0;
+    margin-top:-5%; 
 
 
 }
@@ -72,12 +73,15 @@
     background-color: brown;
     margin-bottom: 3%;
     margin-left: 10%;
+<<<<<<< HEAD
     border-left: 5px solid #f28509;
     transition-duration: 2s;
     box-shadow:2px 2px 3px #2d2d2d;
     border-radius:0 3px 3px 0;
+=======
+   
+>>>>>>> b13b4d3a5bc624c17873916ad9af63c54aace3ff
 }
-
 
 /*titolo 2 frase ad effetto*/
 
@@ -93,7 +97,14 @@
 
 /*container bottone negozio*/
 
+<<<<<<< HEAD
 
+=======
+.containerButton {
+    width: 100%;
+    margin-top: 10%;
+    }
+>>>>>>> b13b4d3a5bc624c17873916ad9af63c54aace3ff
 
 /*div bottone negozio effettivo*/
 
@@ -219,15 +230,17 @@ h2{
     width: 45%;
     height: 25%;
     background-color: white;
-    
     -webkit-transition:  background-color 1s ease; /* For Safari 3.1 to 6.0 */
     transition: background-color 1s ease;
     padding-bottom: 15%;
     float: left;
     margin-left: 5%; 
     margin-top: 5%; 
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> b13b4d3a5bc624c17873916ad9af63c54aace3ff
     border-radius:6px;
     border: brown solid;
     
@@ -242,11 +255,14 @@ h2{
 /*div per google maps destro (sezione 2)*/
 
 .D-RIGHT {
-    width:0;
-    height: 0;
+    width: 25%;
+    height: 25%;
     background-color: black;
-    float: left;
-    margin:10% 0 0 10%;
+    padding-bottom: 25%;
+    float: right; 
+    margin-right: 10%; 
+    margin-top: 10%; 
+    background-image:url(immagini/front.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,7 +351,7 @@ h2{
     }
 
     .shopB {
-        border-radius: 25px;
+        border-radius: 5px;
         padding: 5px; 
         width: 20%;
         height: 4%; 
@@ -470,9 +486,9 @@ h2{
         }
     
     .shopB {
-        border-radius: 25px;
+        border-radius: 5px;
         padding: 10px; 
-        width: 15%;
+        
     }
     
     .downArrow{

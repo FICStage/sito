@@ -30,7 +30,7 @@
     width: 20%;
     height: 15%;
     float: right;
-    margin:-10% 0;
+    margin-top: -8%;
 
 
 }
@@ -92,20 +92,13 @@
 }
 
 /*container bottone negozio*/
-
-
-
-/*div bottone negozio effettivo*/
-
-
-/*hover bottone negozio*/
-
-
 #Btncont{
  
     margin:5% 0 0 43.2%;
 }
 
+
+/*div bottone negozio effettivo*/
 #btn {
     
     color:white;
@@ -120,26 +113,20 @@
     
 }
 
-
+/*hover bottone negozio*/
 #btn:hover{
     background-color:transparent;
     color:#f28509;
     transition-duration: 0.3s;
 }
 
+
 #btn:focus {
     outline:none;
 }
 
 
-/*paragrafo all'interno del bottone*/
 
-.scrShop {
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
-    font-size: 20px;
-}
 
 /*div contente le icone socials*/
 
@@ -334,12 +321,6 @@ h2{
         font-size: 15px;
     }
 
-    .shopB {
-        border-radius: 25px;
-        padding: 5px; 
-        width: 20%;
-        height: 4%; 
-    }
 
     .containerButton {
         width: 100%;
@@ -396,11 +377,6 @@ h2{
         margin-top: -10%;
     }
 
-    .shopB {
-        border-radius: 25px;
-        padding: 10px; 
-        width: 15%;
-    }
 
     .firstS{
         padding-top: 8%;
@@ -440,12 +416,7 @@ h2{
         padding-top: 8%;
         padding-bottom: 8%;
         }
-    
-    .shopB {
-        border-radius: 25px;
-        padding: 10px; 
-        width: 15%;
-    }
+
     
     .downArrow{
         margin-top: 10%;
@@ -469,11 +440,7 @@ h2{
         padding-bottom: 8%;
         }
     
-    .shopB {
-        border-radius: 25px;
-        padding: 10px; 
-        width: 15%;
-    }
+  
     
     .downArrow{
         margin-top: 10%;

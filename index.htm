@@ -13,31 +13,7 @@
     <link rel="stylesheet" href="main.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- INIZIO SCRIPT BACKGROUND -->
-    <script>
-
-        var vet = ["url('')", "url('http://provafateicapricci.altervista.org/immagini/darren-bockman-58266-unsplash.jpg')", "url('http://provafateicapricci.altervista.org/68442004-toy-wallpapers.jpg')", "url('http://provafateicapricci.altervista.org/immagini/toy4.jpg')", "url('http://provafateicapricci.altervista.org/immagini/nong-vang-449097-unsplash.jpg')"];
-
-        cont = 0;
-
-        setInterval(cambia, 5000);
-
-        function cambia() {
-
-            cont++;
-
-            if (cont > vet.length) {
-
-                cont = 1;
-
-            }
-            document.getElementById('gallery').style.backgroundImage = vet[cont];
-        }
-
-
-    </script>
-
-    <!--FINE SCRIPT BACKGROUND-->
+    
 
 </head>
 
@@ -55,16 +31,16 @@
     <!--SEZIONE 1-->
     <section class="firstS" id="gallery">
 
-<!--Div loghi-->
+        <!--Div loghi-->
 
-<div class="loghiD">
-    <img src="icone/header.gif" class="real">
-<div class="logo1">
+        <div class="loghiD">
+            <img src="icone/header.gif" class="real">
+            <div class="logo1">
 
 
-<img src="icone/Fateicapricci_qui 2.png" class="ghost">
-</div>
-</div>
+                <img src="icone/Fateicapricci_qui 2.png" class="ghost">
+            </div>
+        </div>
 
 
 
@@ -77,12 +53,12 @@
         <!--DIV 2 SECONDO TITOLO-->
         <div class="div2">
             <h2>Fate i Capricci è il sito storico di giocattoli bla bla bla. Compra di tutto dal ..... e divertiti fate i capricci
-                    non la guerra</h2>
+                non la guerra</h2>
         </div>
 
         <!--CONTAINER BOTTONE-->
         <div id="Btncont">
-           <button id="btn">SHOP</button>
+            <button id="btn">SHOP</button>
         </div>
         <!--DIV FRECCIA-->
         <div class="downArrow bounce">
@@ -123,22 +99,46 @@
 
         <!--DIV DESCRIZIONE SINISTRO-->
         <div class="D-LEFT">
+        
+            <h3 id="titDP">
+                Chi siamo?
+            </h3>
 
-            <p class="Descp">Fate i Capricci è il sito storico di giocattoli bla bla bla. Compra di tutto dal ..... e divertiti fate i capricci
-                non la guerra</p>
+            <p id="descP">Fate i Capricci è un negozio di giocattoli a Milano. E' nato nel 1985, grazie alla fantasia e alla creatività
+                di Bruno Boni e Nicoletta Crenna. Si è sempre differenziato dagli altri negozi di giocattoli per la accurata
+                scelta degli articoli: si possono trovare giocattoli didattici, peluches Steiff, bambole Corolle, giochi
+                tradizionali, giochi in latta, giocattoli di legno e libri, pupazzetti di gomma della Schleich, animali a
+                guanto, marionette, trottole e tanto altro. Ogni anno i proprietari vanno alla SpielwarenMesse (la famosa</p>
 
         </div>
 
-        <!--DIV DESCRIZIONE DESTRO-->
-        <div class="D-RIGHT">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d106499.44383569506!2d9.114398838990837!3d45.45784165567192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4786c155a54a098b%3A0xbe5ad4df3fb2bc69!2sfate+i+capricci+milano!3m2!1d45.4605513!2d9.1788846!5e0!3m2!1sit!2sit!4v1527845648171" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    
-        <div class="D-RIGHT"> 
-        </div>
+            <div class="w3-content w3-section" style="max-width:500px; float: right; margin-right: 3%; margin-top: 4%;">
+                <img class="mySlides" src="immagini/toy1.jpg" style="width:100%">
+                <img class="mySlides" src="immagini/toy2.jpg" style="width:100%">
+                <img class="mySlides" src="immagini/toy4.jpg" style="width:100%">
+              </div>
+
     </section>
     <!--FINE SEZIONE 2-->
 
 
 </body>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
+    </script>
 
 </html>

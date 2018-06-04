@@ -17,10 +17,11 @@
     width: 100%;
     height: 20%;        
     background-image: url('http://provafateicapricci.altervista.org/immagini/nong-vang-449097-unsplash.jpg');
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 3%;
     background-position: center;
     background-size:     cover;
+    
 }
 
 /*div loghi*/
@@ -29,7 +30,7 @@
     width: 20%;
     height: 15%;
     float: right;
-    margin-top: -8%;
+    margin-top: -5%;
 
 
 }
@@ -93,7 +94,7 @@
 /*container bottone negozio*/
 #Btncont{
  
-    margin-top:15%;
+    margin-top:7%;
 }
 
 
@@ -124,13 +125,19 @@
     outline:none;
 }
 
+#abtn {
+
+    text-decoration: none;
+    color: white;    
+}
+
 
 
 
 /*div contente le icone socials*/
 
 .divIcons {
-    width: 116px;
+    width: 112px;
     height: 5%;
     padding-right:0.5%; 
     float: right;
@@ -201,7 +208,8 @@ h2{
     height:80px;
     width:80px;
     text-align: center;
-    margin-top: 3%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /*animazione freccia*/
@@ -217,6 +225,8 @@ h2{
 
 .secondS {
     width: 100%;
+        padding-bottom:30%; 
+    background-color: rgba(0, 0, 0, 0.007) ;     
 }
 
 /*div descrittivo sinistro */
@@ -331,10 +341,6 @@ h2{
     }
 
 
-    .containerButton {
-        width: 100%;
-        margin-top: 5%;
-        }
 
     .firstS{
         padding-top: 8%;
@@ -437,22 +443,15 @@ h2{
 @media screen and (min-width: 1000px) and (max-width: 1500px) and (orientation:landscape) {
 
     .instagramI .instagramImg {
-        margin-top: 5%;
+        margin-top: -15%;
     }
     
     .facebookI .facebookImg {
-        margin-top: 5%;
+        margin-top: -15%;
     }
 
-    .firstS{
-        padding-top: 8%;
-        padding-bottom: 8%;
-        }
-    
-  
-    
     .downArrow{
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 

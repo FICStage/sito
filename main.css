@@ -94,7 +94,7 @@
 /*container bottone negozio*/
 #Btncont{
  
-    margin:5% 0 0 43.2%;
+    margin-top:15%;
 }
 
 
@@ -144,14 +144,14 @@
     width: 50px;
     height: 50px;
     padding-right: 5%;
-    -webkit-transition:1s ease; /* For Safari 3.1 to 6.0 */
-    transition: 1s ease;
+    -webkit-transition:0.3s ease; /* For Safari 3.1 to 6.0 */
+    transition: 0.3s ease;
 }
 
 .instagramImg:hover  {
 
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
 
 
 }
@@ -162,13 +162,13 @@
     float: right;
     width: 50px;
     height: 50px;
-    -webkit-transition:1s ease; /* For Safari 3.1 to 6.0 */
-    transition: 1s ease;
+    -webkit-transition:0.3s ease; /* For Safari 3.1 to 6.0 */
+    transition: 0.3s ease;
 }
 .facebookImg:hover  {
 
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
 
 
 }
@@ -198,6 +198,9 @@ h2{
 /*freccia*/
 
 .downArrow{
+    
+    height:80px;
+    width:80px;
     text-align: center;
     margin-top: 3%;
 }

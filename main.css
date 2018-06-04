@@ -17,13 +17,8 @@
 .firstS{
     width: 100%;
     height: 20%;        
-<<<<<<< HEAD
     background-image: url('http://provafateicapricci.altervista.org/immagini/foto3.jpg');
     padding-top: 10%;
-=======
-    background-image: url('http://provafateicapricci.altervista.org/immagini/nong-vang-449097-unsplash.jpg');
-    padding-top: 5%;
->>>>>>> 73428ce3728661b66d8f2c93fccb2f7c0c541128
     padding-bottom: 3%;
     background-position: center;
     background-size:     cover;
@@ -99,12 +94,8 @@
 
 /*container bottone negozio*/
 #Btncont{
-<<<<<<< HEAD
-    margin-top:15%;
-=======
  
     margin-top:7%;
->>>>>>> 73428ce3728661b66d8f2c93fccb2f7c0c541128
 }
 
 

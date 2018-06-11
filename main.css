@@ -2,7 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-
+#mappe2 {
+    float: left;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+}
 
                 /*general */
 

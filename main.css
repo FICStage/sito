@@ -204,6 +204,7 @@
     padding-bottom: 1%;
 }
 
+
 /*freccia*/
 
 .downArrow{
@@ -285,6 +286,34 @@
 
 padding-bottom: 20%;
 width: 100%;
+
+
+    }
+    .divMappe{
+        float: right;
+        margin-top : 4%;
+        margin-right : 3%;
+    }
+       
+          /*----------------------------fine sezione 3---------------------------*/
+         /*----------------------------inizio sezione 4---------------------------*/
+
+    .forthS {
+        padding-bottom: 20%;
+        width: 100%;
+
+         }
+
+
+    .D-RIGHT {
+        
+        width: 55%;
+        background-color: white;
+        padding-bottom: 0%;
+        float: right;
+        margin-top: 4%; 
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
 
     }
